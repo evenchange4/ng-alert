@@ -13,6 +13,8 @@ $ bower install ng-alert --save
 Add a `<script>` to your `index.html`:
 
 ```html
+<script src="/bower_components/angular/angular.min.js"></script>
+<script src="/bower_components/angular-animate/angular-animate.min.js"></script>
 <script src="/bower_components/ng-alert/ng-alert.js"></script>
 <link rel="stylesheet" href="/bower_components/ng-alert/ng-alert.css">
 ```
@@ -47,3 +49,13 @@ $scope.alertClose = function(){
 ```
 
 # Dependencies
+
+```js
+"dependencies": {
+  "angular": ">1.2.6",
+  "angular-animate": "~1.2.8"
+}
+```
+
+# Credits
+Inspired by https://github.com/LarsVonQualen/AlertJS.
