@@ -1,0 +1,21 @@
+{
+  "name": "ng-alert",
+  "version": "0.1.0",
+  "authors": [
+    "Michael Hsu (徐承志) <evenchange4@gmail.com>"
+  ],
+  "description": "AngularJS component for easily creating Alert.",
+  "main": "ng-alert.js",
+  "keywords": [
+    "alert"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "homepage": "http://michaelhsu.tw/"
+}

@@ -1,0 +1,166 @@
+@charset "UTF-8";
+/**
+ * ngAlert
+ *
+ * @author Lars von Qualen <lars@larsvonqualen.dk>
+ * @license MIT License
+ * @copyright Lars von Qualen 2013
+ */
+/* Colors */
+.ngAlert-overlay {
+  opacity: 0.5;
+  background: #000;
+  width: 100%;
+  height: 100%;
+  z-index: 999;
+  top: 0;
+  left: 0;
+  position: fixed;
+}
+.clearfix,
+.ngAlert.ngAlert-notification-top:after {
+  visibility: hidden;
+  display: block;
+  font-size: 0;
+  content: " ";
+  clear: both;
+  height: 0;
+}
+.ngAlert {
+  -webkit-box-sizing: border-box;
+/* Safari/Chrome, other WebKit */
+  -moz-box-sizing: border-box;
+/* Firefox, other Gecko */
+  box-sizing: border-box;
+/* Opera/IE 8+ */
+  -webkit-box-shadow: 0px 0px 5px 0px rgba(0,0,0,0.25);
+  box-shadow: 0px 0px 5px 0px rgba(0,0,0,0.25);
+  font-family: sans-serif;
+  padding: 1em;
+  position: relative;
+  display: none;
+  z-index: 1000;
+  border-width: 1px;
+  border-style: solid;
+}
+.ngAlert h1 {
+  font-size: 14pt;
+  font-weight: bold;
+  margin: 0 !important;
+  padding: 0 !important;
+}
+.ngAlert p {
+  font-size: 10pt;
+  margin: 0 !important;
+  padding: 0 !important;
+}
+.ngAlert a {
+  text-decoration: none;
+}
+.ngAlert a .ngAlert a.ngAlert-close {
+  position: absolute;
+  top: 1em;
+  right: 1em;
+  content: '✗';
+}
+.ngAlert.ngAlert-notification {
+  -webkit-border-radius: 5px;
+  border-radius: 5px;
+  width: 20em;
+  margin-bottom: 1em;
+}
+.ngAlert.ngAlert-notification-top {
+  width: 100%;
+  padding: 0.5em;
+}
+.ngAlert.ngAlert-notification-top .ngAlert-message {
+  float: left;
+}
+.ngAlert.ngAlert-notification-top .ngAlert-message h1 {
+  font-size: 1em;
+  font-weight: bold;
+  display: inline-block !important;
+  margin: 0;
+  margin-right: 0.5em !important;
+}
+.ngAlert.ngAlert-notification-top .ngAlert-message p {
+  display: inline-block;
+}
+.ngAlert.ngAlert-notification-top .ngAlert-close-btn {
+  float: right;
+  content: '✗';
+}
+.ngAlert.ngAlert-alert {
+  -webkit-border-radius: 5px;
+  border-radius: 5px;
+  width: 20em;
+  position: fixed;
+  left: 50%;
+  top: 50%;
+  margin-left: -10em;
+  margin-top: -7.5em;
+}
+.ngAlert .ngAlert-confirmBtn-wrapper {
+  text-align: center;
+}
+.ngAlert .ngAlert-confirmBtn-wrapper a.ngAlert-confirmBtn {
+  margin-top: 1em;
+  text-decoration: none;
+  display: block;
+  padding: 0.5em;
+  border: 1px solid;
+  -webkit-border-radius: 5px;
+  border-radius: 5px;
+}
+.ngAlert.ngAlert-error {
+  color: #b94a48;
+  background-color: #f2dede;
+  border-color: #ce8383;
+}
+.ngAlert.ngAlert-error a {
+  color: #b94a48;
+}
+.ngAlert.ngAlert-error .ngAlert-confirmBtn-wrapper a.ngAlert-confirmBtn {
+  background-color: #b94a48;
+  color: #f2dede;
+  border-color: #ce8383;
+}
+.ngAlert.ngAlert-warning {
+  color: #c09853;
+  background-color: #fcf8e3;
+  border-color: #f0db70;
+}
+.ngAlert.ngAlert-warning a {
+  color: #c09853;
+}
+.ngAlert.ngAlert-warning .ngAlert-confirmBtn-wrapper a.ngAlert-confirmBtn {
+  background-color: #c09853;
+  color: #fcf8e3;
+  border-color: #f0db70;
+}
+.ngAlert.ngAlert-info {
+  color: #3a87ad;
+  background-color: #d9edf7;
+  border-color: #70bbe1;
+}
+.ngAlert.ngAlert-info a {
+  color: #3a87ad;
+}
+.ngAlert.ngAlert-info .ngAlert-confirmBtn-wrapper a.ngAlert-confirmBtn {
+  background-color: #3a87ad;
+  color: #d9edf7;
+  border-color: #70bbe1;
+}
+.ngAlert.ngAlert-success {
+  color: #468847;
+  background-color: #dff0d8;
+  border-color: #93cd7c;
+}
+.ngAlert.ngAlert-success a {
+  color: #468847;
+}
+.ngAlert.ngAlert-success .ngAlert-confirmBtn-wrapper a.ngAlert-confirmBtn {
+  background-color: #468847;
+  color: #dff0d8;
+  border-color: #93cd7c;
+}
