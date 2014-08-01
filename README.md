@@ -21,11 +21,13 @@ Add a `<script>` to your `index.html`:
 
 # Documentation
 
+## Module
+
 ```js
 angular.module('main', ['ngAlert']);
 ```
 
-## alert-container Directive
+## Directive alert-container 
 
 ```html
 <alert-container 
@@ -39,6 +41,12 @@ angular.module('main', ['ngAlert']);
   >
 </alert-container>
 ```
+
+This can be done for all four alert types: 
+- error
+- info
+- warning
+- success
 
 ## controller
 
