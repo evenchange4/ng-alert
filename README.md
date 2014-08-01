@@ -43,10 +43,10 @@ angular.module('main', ['ngAlert']);
 ```
 
 This can be done for all four alert types: 
-- error
-- info
-- warning
-- success
+- `error`
+- `info`
+- `warning`
+- `success`
 
 ## controller
 
