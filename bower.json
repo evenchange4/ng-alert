@@ -5,7 +5,10 @@
     "Michael Hsu (徐承志) <evenchange4@gmail.com>"
   ],
   "description": "AngularJS component for easily creating Alert.",
-  "main": "ng-alert.js",
+  "main": [
+    "ng-alert.js",
+    "ng-alert.css"
+  ],
   "keywords": [
     "alert"
   ],
@@ -17,5 +20,9 @@
     "test",
     "tests"
   ],
-  "homepage": "http://michaelhsu.tw/"
+  "homepage": "http://michaelhsu.tw/",
+  "dependencies": {
+    "angular": ">1.2.6",
+    "angular-animate": "~1.2.8"
+  }
 }
