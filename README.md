@@ -14,17 +14,18 @@ Add a `<script>` to your `index.html`:
 
 ```html
 <script src="/bower_components/ng-alert/ng-alert.js"></script>
+<link rel="stylesheet" href="/bower_components/ng-alert/ng-alert.css">
 ```
 
 # Documentation
 
-```
+```js
 angular.module('main', ['ngAlert']);
 ```
 
 ## alert-container Directive
 
-```
+```html
 <alert-container 
   ng-init="isAlert=false"
   ng-show="isAlert" 
@@ -39,7 +40,7 @@ angular.module('main', ['ngAlert']);
 
 ## controller
 
-```
+```js
 $scope.alertClose = function(){
   $scope.isAlert = false;
 };
