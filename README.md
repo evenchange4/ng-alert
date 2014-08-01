@@ -7,7 +7,7 @@ AngularJS component for easily creating Alert.
 Install with `bower`:
 
 ```shell
-$ bower install ng-alert
+$ bower install ng-alert --save
 ```
 
 Add a `<script>` to your `index.html`:
@@ -16,7 +16,7 @@ Add a `<script>` to your `index.html`:
 <script src="/bower_components/ng-alert/ng-alert.js"></script>
 ```
 
-## Documentation
+# Documentation
 
 ```
 angular.module('main', ['ngAlert']);
@@ -44,3 +44,5 @@ $scope.alertClose = function(){
   $scope.isAlert = false;
 };
 ```
+
+# Dependencies
